@@ -3,13 +3,12 @@ module static_array;
   
   initial begin 
     foreach (abc[i])begin
-      $display("the array elements are [%0d]=[%0d]",i,abc[i]);
+      $display(" Elements of abc [%0d]=[%0d]",i,abc[i]);
     end 
   end
     endmodule
-
 //output
-// the array elements are [3]=[0]
-// the array elements are [2]=[1]
-// the array elements are [1]=[0]
-// the array elements are [0]=[1]
+ Elements of abc [3]=[0]
+ Elements of abc [2]=[1]
+ Elements of abc [1]=[0]
+ Elements of abc [0]=[1]
