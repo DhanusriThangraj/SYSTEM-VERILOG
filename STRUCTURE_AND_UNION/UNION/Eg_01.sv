@@ -20,5 +20,5 @@ endmodule
 # value of a 0000ffff
 # value of b 7a
 # value of a 0000ff7a
-# value of union '{a:65402, b:122}
+# value of union '{a:65402, b:122} //a's and b's decimal value
 # exit
