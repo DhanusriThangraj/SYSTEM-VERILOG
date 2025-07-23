@@ -7,19 +7,18 @@ module union_example;
     trail.a=16'hffff;
     $display("value of a %h",trail.a);
     
-    trail.b=8'hda;
+    trail.b=8'h7a;
     $display("value of b %h",trail.b);
     
     $display("value of a %h",trail.a);
     
-    $display("value of union %p", trail);
+    $display("value of union %p",trail);
   end
 endmodule
-
 // output
-xcelium> run
-value of a 0000ffff
-value of b da
-value of a ffffffda
-value of union '{a:-38}
-xmsim: *W,RNQUIE: Simulation is complete.
+# run -all
+# value of a 0000ffff
+# value of b 7a
+# value of a 0000ff7a
+# value of union '{a:65402, b:122}
+# exit
