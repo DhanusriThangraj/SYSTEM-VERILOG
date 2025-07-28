@@ -7,7 +7,6 @@ module exampleeg1;//without object
     $display("Display the values of a=%0d",example::a);
   end
 endmodule
-
 // output
 xcelium> run
 Display the values of a=1
