@@ -1,4 +1,4 @@
-odule associative_array;
+module associative_array;
   int flowers[string];
   
   initial begin
