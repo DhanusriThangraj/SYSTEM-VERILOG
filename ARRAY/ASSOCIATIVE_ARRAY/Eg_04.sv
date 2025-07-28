@@ -18,7 +18,7 @@ module assiociative_array;
     
     array.delete(1);
     $display("after deleting %p",array);
-    
+ 
     key=14;
     array.prev(key);
     $display("previous element %0d",key);    
@@ -30,6 +30,7 @@ module assiociative_array;
     $display("after deleting all elements %p",array);    
   end
     endmodule
+
 
 // output
 xcelium> run
