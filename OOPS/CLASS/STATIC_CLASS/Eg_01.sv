@@ -16,8 +16,7 @@ module example;
     end
     foreach (s1[i]) begin
       $display("Display the value of a[%0d]=[%0d]",i,s1[i].a);
-    end
-    
+    end  
   end
 endmodule
 
