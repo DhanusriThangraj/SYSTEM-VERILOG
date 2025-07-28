@@ -9,6 +9,7 @@ class home;
   endfunction
 endclass
 
+
 module sample;
   home h1;
   initial begin
