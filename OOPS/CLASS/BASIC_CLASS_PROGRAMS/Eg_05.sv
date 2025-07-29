@@ -14,12 +14,13 @@ module sum;
     s1.x=12;
     s1.y=121;
     s1.sum;
-   
     s2.x=12;
     s2.y=11;
     s2.sum;
   end
 endmodule
+
+
 
 // output
 xcelium> run
