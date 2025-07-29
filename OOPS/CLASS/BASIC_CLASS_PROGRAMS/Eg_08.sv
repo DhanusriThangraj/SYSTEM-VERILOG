@@ -1,8 +1,7 @@
 class home;
   int light ;
   int fan;
-  string switch;
-  
+  string switch; 
   function void sample();
     switch="on";
     $display("Print Switch is  %s",switch);
