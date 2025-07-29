@@ -20,6 +20,7 @@ module sum;
   end
 endmodule
 
+
 // output
 xcelium> run
 output of the a=12,b=121 = sum=133
