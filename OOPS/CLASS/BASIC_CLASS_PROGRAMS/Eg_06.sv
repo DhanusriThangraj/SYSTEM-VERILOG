@@ -5,7 +5,6 @@ class example;
     $display("Display the values of a=%0b",a);
   endfunction   
 endclass
-
 module test;
   example eg1=new();
   example eg2;
@@ -29,9 +28,10 @@ module test;
       eg3.a=10;
     else
       $display("eg3's object is not created");    
-    
-  end
+      end
 endmodule
+
+
 // output
 xcelium> run
 Display the values of a=110111
