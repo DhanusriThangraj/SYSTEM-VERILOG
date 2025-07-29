@@ -6,6 +6,7 @@ class example;
   endfunction
 endclass
 
+
 module example;
   example eg1=new();
   example eg2;
