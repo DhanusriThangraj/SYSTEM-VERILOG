@@ -11,9 +11,9 @@ class sample;
     a=a1;
     b=b1;
     $display("display the avlues of the sample2 a=%0d, b=%0d",a,b);
-  endfunction
-    
+  endfunction   
 endclass
+
 module sample;
   sample s1;
    initial begin
