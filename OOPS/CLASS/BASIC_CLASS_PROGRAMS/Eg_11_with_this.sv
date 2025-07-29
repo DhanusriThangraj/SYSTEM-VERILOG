@@ -17,8 +17,7 @@ class home;
     this.light=light;
     this.fan=fan;
     this.switch=switch;
-    $display("After update::display the values of light=%0d,fan=%0d,switch=%s",light,fan,switch);
-    
+    $display("After update::display the values of light=%0d,fan=%0d,switch=%s",light,fan,switch);   
   endfunction
 endclass
 
