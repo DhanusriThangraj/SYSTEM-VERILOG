@@ -33,7 +33,7 @@ endmodule
 // output
 # run -all
 # DISPLAY THE VALUES OF THE a=qwertyuiopasdfghjklzxcvbnm and b=111
-# DISPLAY THE VALUES OF THE a= and b=0
+# DISPLAY THE VALUES OF THE a= and b=0  //initially we cannot give the values of a and b
 # DISPLAY THE VALUES OF THE a=sdfghjk and b=1011
 # DISPLAY THE VALUES OF THE a=lkjhgfdsa and b=0
 # exit
