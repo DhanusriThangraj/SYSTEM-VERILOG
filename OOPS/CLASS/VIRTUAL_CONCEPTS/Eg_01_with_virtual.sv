@@ -16,7 +16,7 @@ module class_example;
   int j;
   initial begin 
     child_packet c1=new();
-    packet p1=c1;
+    packet p1=c1;//UPCASTING-->Child's object can be assigned to the parent class is called upcasting
     $display("display the values of the i=%0d",p1.i);
     j=p1.init();
     $display("Display the values of the i=%0d",j);
