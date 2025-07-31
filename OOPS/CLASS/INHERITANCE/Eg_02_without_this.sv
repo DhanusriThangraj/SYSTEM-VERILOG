@@ -23,3 +23,11 @@ module sample;
     $display("values of a=%0d b=%0d",e1.a,e1.b);
   end
 endmodule
+
+// output
+# run -all
+# Display the values of the a=0 and b=0
+# Display the values of the a=123 and b=678
+# Display the values of the a=123 and b=678
+# values of a=112 b=67
+# exit
