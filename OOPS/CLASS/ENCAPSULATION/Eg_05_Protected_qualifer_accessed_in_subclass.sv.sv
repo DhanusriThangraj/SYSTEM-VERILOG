@@ -1,6 +1,10 @@
+Protected is similar to local but a member will be visible inside subclass
+It is not used in the module and its is accesed in the subclasses
+
 class example_class;
    protected int i;
 endclass
+   
 class example1 extends example_class;
    function void display(int a);
     i=a;
