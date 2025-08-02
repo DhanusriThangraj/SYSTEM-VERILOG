@@ -1,3 +1,6 @@
+local is accessed only to methods inside the class .
+It is not accessed to the module and subclass
+
 
 class example_class;
   local int i;
