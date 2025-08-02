@@ -1,5 +1,5 @@
 class example;
-  int a;
+   int a;
 endclass
 
 module sample;
@@ -9,5 +9,9 @@ module sample;
     $display("values of a=%0d",s1.a);
   end
 endmodule
+
 // output
-Error-[SV-ICVA-L] Illegal class variable access
+xcelium> run
+values of a=134
+xmsim: *W,RNQUIE: Simulation is complete.
+xcelium> exit
