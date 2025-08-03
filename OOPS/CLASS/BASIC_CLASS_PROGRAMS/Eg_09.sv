@@ -6,7 +6,6 @@ class home;
   function void sample();
     switch="on";
     $display("Print Switch is  %s",switch);
- 
   endfunction
 endclass
 module sample;
