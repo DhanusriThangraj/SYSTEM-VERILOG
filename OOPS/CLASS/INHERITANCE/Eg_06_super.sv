@@ -1,4 +1,3 @@
-
 class parent_class;
   int a,b;
   int sum;
