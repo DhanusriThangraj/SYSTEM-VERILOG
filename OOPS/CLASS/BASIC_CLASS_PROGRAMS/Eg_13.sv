@@ -42,6 +42,7 @@ class friuts;
     
   endfunction
   endclass
+
 module fruits;
   friuts f1=new();
   initial begin
