@@ -15,6 +15,7 @@ class child extends parent;
     endfunction
 endclass
 
+
 module sample;
   child c1;
   initial begin
