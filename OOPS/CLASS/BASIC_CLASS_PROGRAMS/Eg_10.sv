@@ -4,8 +4,7 @@ class home;
   int fan=100;
   string switch="off";
   function void home1();
-    
-    $display("initial value::display the values of light=%0d ,fan=%0d and switch=%0s",light,fan,switch);
+        $display("initial value::display the values of light=%0d ,fan=%0d and switch=%0s",light,fan,switch);
     
     light=0;
     fan=1;
