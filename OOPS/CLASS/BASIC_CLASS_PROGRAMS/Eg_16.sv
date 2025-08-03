@@ -4,6 +4,7 @@ class example;
     $display("Display the values of a=%0d",a);
   endfunction
 endclass
+
 module example_2;
 //   example eg1;
   initial begin
