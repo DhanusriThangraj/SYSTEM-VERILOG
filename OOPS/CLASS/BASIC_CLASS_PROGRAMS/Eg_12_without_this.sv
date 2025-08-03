@@ -7,7 +7,6 @@ class home;
     int fan;
     string switch;
     $display("DISPLAY THE CLASS VALUES light=%0d,fan=%0d,switch=%s",this.light,this.fan,this.switch);
-
    	light = 11;
     switch = "on";
     fan = 11;
