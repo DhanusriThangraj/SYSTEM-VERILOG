@@ -18,6 +18,7 @@ class example_1 extends example;
   endfunction
 endclass
 
+
 module sample;
   initial begin
     example_1 e=new();
