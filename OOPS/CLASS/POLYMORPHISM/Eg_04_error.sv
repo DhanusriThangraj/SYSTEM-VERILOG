@@ -1,4 +1,3 @@
-
 class packet;
   integer i=1;
   function integer init();
