@@ -6,7 +6,6 @@ Note:-
 Method definition and declaration should have the same number of argument lists, data types, and argument names.
 For the extern function return type should be the same if used.
   
-
 class example;
   string name;
   extern function void display();
