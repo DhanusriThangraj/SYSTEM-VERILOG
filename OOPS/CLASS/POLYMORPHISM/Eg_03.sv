@@ -44,8 +44,7 @@ module  example;
     s1.display();
     s2.display();
     s3.display();
-    
-  end
+    end
 endmodule
 // output
 xcelium> run
