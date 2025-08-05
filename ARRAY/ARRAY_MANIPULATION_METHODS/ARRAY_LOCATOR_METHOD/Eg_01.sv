@@ -2,7 +2,6 @@ module array_manipulator;
   string array[$];
   string check;
   int a[$];
- 
   initial begin
     $display("display the initial values %p",array);
 //     asic values b=098.y=121; m=109; o=111; n=110;
