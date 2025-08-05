@@ -3,7 +3,6 @@ module union_example;
   int a;
   byte b;}trail;
   initial begin
-    
     trail.a=16'hffff;
     $display("value of a %h",trail.a);
     
