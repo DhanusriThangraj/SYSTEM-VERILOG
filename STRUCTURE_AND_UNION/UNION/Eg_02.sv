@@ -11,8 +11,7 @@ module union_example;
     $display("value of y=%h",example.y);
     
     $display("value of x=%h",example.x);
-    $display("value of example %p",example);
-    
+    $display("value of example %p",example);    
   end
 endmodule
 
