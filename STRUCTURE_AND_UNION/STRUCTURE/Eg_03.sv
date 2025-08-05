@@ -6,7 +6,6 @@ module stucture;
     int salary;
   }employee_details;
   employee_details em1,em2,em3;
-  
   initial begin
     em1.employee_name="xyzxyz";
     em1.employee_id=123;
