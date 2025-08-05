@@ -4,7 +4,7 @@ module structure;
     int roll_num;
     int mark;
   }student_details;
-  
+
   initial begin
     student_details.name="Dhanusri";
     student_details.roll_num=07;
