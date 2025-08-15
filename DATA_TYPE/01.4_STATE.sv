@@ -14,3 +14,12 @@ module state_4 ;
     $display("real=   %0f",f);
   end 
 endmodule
+
+// output
+reg=    x
+wire=   z
+logic=  x
+integer=x
+time=   0                   x
+real=   0.000000
+xmsim: *W,RNQUIE: Simulation is complete.
