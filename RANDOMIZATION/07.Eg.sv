@@ -20,7 +20,7 @@ module sample;
     e=new();
     repeat(3)begin
       void'(e.randomize());
-      $display("[RAND]add=%0d data=%0d data_lenght=%0d parity=%0b",e.add,e.data,e.data_length,e.data);
+      $display("[RAND]add=%0d data=%0d data_lenght=%0d parity=%0b",e.add,e.data,e.data_length,e.parity);
     
       e.data=7;
       e.data.rand_mode(0);
@@ -31,18 +31,19 @@ endmodule
 
 
 // output
+xcelium> source /xcelium23.09/tools/xcelium/files/xmsimrc
 xcelium> run
 [PRE ] add=x data=0 data_length=0 parity=0
 [POST] parity=1
-[RAND]add=2025382997 data=556336591 data_lenght=2 parity=100001001010010000010111001111
+[RAND]add=2025382997 data=556336591 data_lenght=2 parity=1
 [RAND]Data=7
 [PRE ] add=2025382997 data=7 data_length=2 parity=1
 [POST] parity=1
-[RAND]add=1825328614 data=7 data_lenght=3 parity=111
+[RAND]add=1825328614 data=7 data_lenght=3 parity=1
 [RAND]Data=7
 [PRE ] add=1825328614 data=7 data_length=3 parity=1
 [POST] parity=1
-[RAND]add=1902060085 data=7 data_lenght=0 parity=111
+[RAND]add=1902060085 data=7 data_lenght=0 parity=1
 [RAND]Data=7
 xmsim: *W,RNQUIE: Simulation is complete.
 xcelium> exit
