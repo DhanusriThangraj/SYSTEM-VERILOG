@@ -29,3 +29,9 @@ sel=0 out=10
 sel=1 out=5
 xmsim: *W,RNQUIE: Simulation is complete.
 xcelium> exit
+
+dist = probability (not exact count).
+
+For statistical balance → use dist.
+
+For exact equal count → predefine values & shuffle.
