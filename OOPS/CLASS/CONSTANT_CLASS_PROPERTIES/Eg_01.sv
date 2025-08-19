@@ -19,7 +19,6 @@ module sample;
   end
 endmodule
 
-
 // output
 xcelium> run
 the values of a=1 and y=global instances
