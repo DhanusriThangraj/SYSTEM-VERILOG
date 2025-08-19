@@ -17,8 +17,7 @@ endclass
       s1=new();
       s1.example();
       s1.b="In instance class,the values cannot assigned firstly";
-      s1.example();
-      
+      s1.example();  
     end
   endmodule
 
