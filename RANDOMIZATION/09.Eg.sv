@@ -2,7 +2,6 @@ class eg;
   byte a;
   int b;
 endclass
-
 module example;
   eg e=new();
   initial begin
