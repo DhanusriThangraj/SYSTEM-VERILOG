@@ -15,6 +15,7 @@ module example;
   end
 endmodule
 
+
 // output
 xcelium> run
 sel=0 out=10
