@@ -14,6 +14,7 @@ module test;
   end
 endmodule
 
+
 // output
 xcelium> source /xcelium23.09/tools/xcelium/files/xmsimrc
 xcelium> run
