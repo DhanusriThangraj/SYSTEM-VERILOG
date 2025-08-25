@@ -17,3 +17,4 @@ xcelium> run
 print the array of abc ='{'h1:20, 'h19:22, 'h26:66}
 print the string= '{"fruits":"mango", "season":"monsoon", "vegtables":"cucumber"}
 xmsim: *W,RNQUIE: Simulation is complete.
+
