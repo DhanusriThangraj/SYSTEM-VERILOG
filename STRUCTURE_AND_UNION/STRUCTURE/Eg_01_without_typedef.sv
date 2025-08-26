@@ -22,3 +22,4 @@ display the student_details,'{name:"Dhanusri", roll_num:7, mark:82}
  Roll_number=7 
  Marks=82
 xmsim: *W,RNQUIE: Simulation is complete.
+
