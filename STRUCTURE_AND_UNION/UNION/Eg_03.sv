@@ -10,8 +10,7 @@ module union_example;
     u.b=8'hcd;
     $display("values of b %0h",u.b);  
     $display("values of a %0h",u.a); 
-    $display("values of trail %p",u);
-    
+    $display("values of trail %p",u);    
   end 
 endmodule
 
