@@ -14,7 +14,6 @@ module union_example;
     $display("value of example %p",example);    
   end
 endmodule
-
 // output
 # run -all
 # value of x=0000eeeeabcf10cd
