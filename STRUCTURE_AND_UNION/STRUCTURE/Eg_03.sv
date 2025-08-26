@@ -11,7 +11,7 @@ module stucture;
     em1.employee_id=123;
     em1.experience=2;
     em1.salary=50000;
-    
+
     em2='{"pqrs",456,3,67000};
     em3='{"lmno",678,4,56091};
     
