@@ -30,3 +30,4 @@ display the student_details,'{name:"Devaki", roll_num:4, mark:85}
  Student Name=Devaki 
  Roll_number=4 
  Marks=85
+
