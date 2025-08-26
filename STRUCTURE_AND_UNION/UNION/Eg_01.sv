@@ -10,7 +10,6 @@ module union_example;
     $display("value of b %h",trail.b);
     
     $display("value of a %h",trail.a);
-    
     $display("value of union %p",trail);
   end
 endmodule
