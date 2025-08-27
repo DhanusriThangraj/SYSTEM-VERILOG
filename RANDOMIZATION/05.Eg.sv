@@ -13,6 +13,7 @@ module example;
   end
 endmodule
 
+
 // output
 xcelium> run
 Data=551838007 Parity=14
