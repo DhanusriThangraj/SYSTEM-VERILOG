@@ -12,6 +12,7 @@ module example;
   end
 endmodule
 
+
 // output
 xcelium> run
 Data=303379748         Addr=1        number=10010010
