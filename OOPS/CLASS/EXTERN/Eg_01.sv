@@ -11,6 +11,7 @@ class example;
   extern function void display();
 endclass
 
+    
 function void example::display();
   $display("Name=%0s",name);
   endfunction
