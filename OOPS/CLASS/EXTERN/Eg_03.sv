@@ -7,7 +7,7 @@ class sub_class extends base_class;
      int b=15;
   extern function void function_2();
  endclass
-  
+    
     function void base_class::function_1();
    $display("display the values of a=%0d",a);
    endfunction
