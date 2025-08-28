@@ -9,7 +9,7 @@ task example::sum();
       sum=a+b;
       $display("Display the values of sum=%0d",sum);
 endtask
-    
+
     module sample();
       initial begin
         example e=new();
