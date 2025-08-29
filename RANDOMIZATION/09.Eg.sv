@@ -13,6 +13,7 @@ module example;
   end
 endmodule
 
+
 // output
 A=1101110   B=-2118898666
 A=11100111  B=1809026957
