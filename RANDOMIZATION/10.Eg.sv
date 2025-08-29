@@ -1,7 +1,6 @@
 class frame;
   randc bit [7:0]data;
 endclass
-
 class data_frame;
   bit [7:0] data[10];
   function void pre_randomize();
