@@ -8,7 +8,6 @@ module example;
   end
 endmodule
 
-
 // output
 xcelium> run
 DATA=-182898798
