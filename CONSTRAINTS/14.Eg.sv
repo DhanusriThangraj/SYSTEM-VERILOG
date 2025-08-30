@@ -1,5 +1,5 @@
 class sample;
-  rand bit   [5:0]a[15];
+  rand bit   [5:0]a[15]; ascending order odd number 
   constraint c1 { foreach(a[i])
   {a[i]%2!=0;
         if(i>0)
