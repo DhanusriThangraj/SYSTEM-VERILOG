@@ -21,3 +21,4 @@ TIME=8 A=8
 TIME=10 A=10
 xmsim: *W,RNQUIE: Simulation is complete.
 xcelium> exit
+
