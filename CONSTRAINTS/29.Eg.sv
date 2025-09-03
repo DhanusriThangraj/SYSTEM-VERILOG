@@ -1,6 +1,7 @@
 class sample;
   rand int data;
-  constraint c1 {data < 30;}
+  constraint c1 {data < 30;} //constraint overwrite
+  
 endclass
 
 module sample;
