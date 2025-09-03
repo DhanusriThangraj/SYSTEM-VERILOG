@@ -1,4 +1,4 @@
-class example;
+class example;//generate prime numbers
   randc int a;
   constraint c {a inside {[1:101]};}
   constraint c1 {a > 1;
