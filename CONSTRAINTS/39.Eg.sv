@@ -1,4 +1,4 @@
-class example;
+class example; //pattern generation
   rand bit a;
        bit b=0;
   constraint c1 {a!=b;}
