@@ -1,4 +1,4 @@
-class example;
+class example; //pattern generation
   rand bit a[];
   constraint c1 {a.size()==16;}
   constraint c2 {foreach(a[i])
