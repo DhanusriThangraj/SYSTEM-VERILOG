@@ -10,8 +10,7 @@ module associative_array;
     $display("the values of rose %0d",flowers["rose"]);
     $display("the values of jasmine %0d",flowers["jasmine"]);
     $display("the values of tulip %0d",flowers["tulip"]);
-    $display("the values of dallya %0d",flowers["dallya"]);
-    
+    $display("the values of dallya %0d",flowers["dallya"]);    
   end
 endmodule
 
