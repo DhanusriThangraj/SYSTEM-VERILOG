@@ -12,6 +12,7 @@ module associative_array;
   end
 endmodule
 
+
 // output
 xcelium> run
 print the array of abc ='{'h1:20, 'h19:22, 'h26:66}
