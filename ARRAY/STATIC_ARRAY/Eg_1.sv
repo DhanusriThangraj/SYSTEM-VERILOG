@@ -18,8 +18,8 @@ module static_array;
   end
 endmodule
 
-
 //output
+
 
 // # run -all
 // # default value of a [3]=0
