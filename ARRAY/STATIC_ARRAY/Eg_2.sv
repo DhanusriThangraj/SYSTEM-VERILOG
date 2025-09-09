@@ -15,6 +15,7 @@ module static_array;
   end
     endmodule
 
+
 //output
 // the elements in the array [0]=[1]
 // the elements in the array [1]=[2]
