@@ -1,4 +1,5 @@
 module static_array;
+  
   bit[3:0]abc=4'b0101;
   
   initial begin 
