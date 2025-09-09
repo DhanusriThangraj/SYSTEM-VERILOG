@@ -5,6 +5,7 @@ module assiociative_array;
     $display("initail value ",array.size());
     
     array ='{12:9,1:8,14:45,25:67,34:90,56:98,35:6,87:1};
+    
     $display("print the elements %p",array);
     
     array.first(key);
