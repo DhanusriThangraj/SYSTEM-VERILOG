@@ -36,6 +36,7 @@ module associative_array;
   end
 endmodule
 
+
 // output
 xcelium> run
 initial value '{}
