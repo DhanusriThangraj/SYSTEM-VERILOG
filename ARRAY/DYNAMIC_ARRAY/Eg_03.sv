@@ -2,7 +2,7 @@ module dynamic_array;
   int da[];
   initial begin
     $display("print the array %p",da);
-    
+   
     da=new[5];
     da='{1,2,3,4,5};
     foreach(da[i]) begin
