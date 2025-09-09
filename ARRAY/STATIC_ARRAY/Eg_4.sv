@@ -7,6 +7,8 @@ module static_array;
   end
 endmodule
 
+
+
 // output
 // elements of pqr [15]=[1]
 // elements of pqr [14]=[0]
