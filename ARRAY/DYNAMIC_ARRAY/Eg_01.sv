@@ -4,7 +4,6 @@ module dynamic_array;
   initial begin   
     $display("print the array = %p",abc);
     
-    
     abc = new[7];
     abc='{1,2,3,4,5,6,7};
     foreach(abc[i]) begin
