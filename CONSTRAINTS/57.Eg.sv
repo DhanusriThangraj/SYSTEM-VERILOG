@@ -9,7 +9,7 @@ class example;
       array[i][j]==1;
   }}}
 endclass
-    
+   
 module sample;
   initial begin
     example e1;
