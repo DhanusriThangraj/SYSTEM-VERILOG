@@ -21,6 +21,7 @@ module sample;
   end
 endmodule
 
+   
 //output
    Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Sep  5 02:56 2025
 [0][1][2][3]
