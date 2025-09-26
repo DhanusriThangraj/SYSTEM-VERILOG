@@ -1,3 +1,4 @@
+
 class packet;
   integer i=1;
 virtual  function integer init();
