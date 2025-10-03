@@ -1,3 +1,4 @@
+
 module func;
   initial begin
     $display("%d",add());
