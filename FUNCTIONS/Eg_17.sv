@@ -3,6 +3,7 @@ module func;
   initial begin
     $display("%d",add(5));
   end
+ 
   
   function int add(int sum); 
     fork
