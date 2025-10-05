@@ -5,6 +5,7 @@ module static_array;
       mixed_array[k][m]=$urandom_range(20,50);
       $display("display the 2_unpacked_array [%0d][%0d]=[%0b]",k,m,mixed_array[k][m]);
     end
+    
     foreach(mixed_array[i,j])begin 
       mixed_array[i][j]=$urandom_range(20,50);
       $display("display the 2_packed_array   [%0d][%0d]=[%0b]",i,j,mixed_array[i][j]);
