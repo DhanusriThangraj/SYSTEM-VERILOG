@@ -30,3 +30,10 @@ xmsim: *W,RNQUIE: Simulation is complete.
 xcelium> exit
 TOOL:	xrun	23.09-s001: Exiting on Oct 08, 2025 at 01:31:05 EDT  (total: 00:00:02)
 Done
+
+
+Randomization call	                Works?	                     Why
+std::randomize(a, b)              	✅ Yes            	Randomizes local variables
+std::randomize(this.a)	            ❌ No	              Hierarchical name not allowed
+std::randomize(this)	              ❌ No             	Object handle, not randomizable
+this.randomize()                   	✅ Yes	            Calls the class’s built-in randomize method
