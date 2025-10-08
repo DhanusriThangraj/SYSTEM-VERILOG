@@ -1,3 +1,5 @@
+//disable randomization
+
 class example;
   rand bit [2:0]a;
   randc bit [2:0]b;
