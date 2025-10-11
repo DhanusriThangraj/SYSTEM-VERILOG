@@ -1,6 +1,6 @@
 module test;
 class abc;
-static int sum;
+static int sum;                           //static variable
 function int calc(input int a, input int b);
 this.sum=a+ b;
 return sum;
