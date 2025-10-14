@@ -1,5 +1,4 @@
-class base;
-  
+class base;  
   static int i;
   static function void get(); 
     int a;
