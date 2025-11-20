@@ -1,4 +1,3 @@
-
 module semaphore_example;
   semaphore d;
   initial begin
