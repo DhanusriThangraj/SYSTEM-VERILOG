@@ -84,7 +84,7 @@ You decide the exact moment.
 // vsim +access+r;
 //  run -all;
 //  acdb save;
-//  acdb report -db fcover.acdb -txt -o cov.txt -verbose
+  //  acdb report -db fcover.acdb -txt -o cov.txt -verbose  (acbd ==> advanced coverage data base )
 //  exec cat cov.txt;
 //  exit
 module functional_coverage;
